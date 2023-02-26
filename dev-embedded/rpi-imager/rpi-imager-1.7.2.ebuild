@@ -21,4 +21,8 @@ KEYWORDS="~arm64 ~amd64"
 IUSE=""
 
 DEPEND=""
-RDEPEND="${DEPEND}"
+RDEPEND="
+        ${DEPEND}
+        dev-qt/qtconcurrent
+        dev-qt/qtquickcontrols2
+        "
